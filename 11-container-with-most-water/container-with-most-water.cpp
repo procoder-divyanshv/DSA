@@ -1,5 +1,5 @@
 class Solution {
-public:
+public://optimised two pointer approach for this question
     int maxArea(vector<int>& height) {
         int n= height.size();
 
