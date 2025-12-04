@@ -11,8 +11,8 @@ public:
         int res_sum;
         int max_diff=INT_MAX;
 
-        int left;
-        int right;
+        int left;//first pointer
+        int right;//second pointer
         // int sum;
         sort(nums.begin(),nums.end());
         for(int i=0;i<nums.size()-2;i++){
