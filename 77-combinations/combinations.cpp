@@ -1,6 +1,6 @@
 class Solution {
 public:
-    set<vector<int>> subsets_set;
+    // set<vector<int>> subsets_set;
     vector<vector<int>>subsets;
     void generate_subset(vector<int> & nums,int n,int k){
         int range = (1<<n);
@@ -14,13 +14,13 @@ public:
                         
                         }
                     }
-                    subsets_set.insert(subset);
+                    subsets.push_back(subset);
             }
             
         }
-        for(auto i : subsets_set){
-            subsets.push_back(i);
-        }
+        // for(auto i : subsets_set){
+        //     subsets.push_back(i);
+        // }
 
     }
     vector<vector<int>> combine(int n, int k) {
