@@ -4,11 +4,11 @@ public:
         int count =1;
         int i=0;
         int j=0;
-        vector<int>temp;
+        // vector<int>temp;
 
         while(j<=nums.size()-1){
             if(nums[i]!=nums[j]) {
-                temp.push_back(nums[i]);
+                // temp.push_back(nums[i]);
                 i++;
                 count++;
 
