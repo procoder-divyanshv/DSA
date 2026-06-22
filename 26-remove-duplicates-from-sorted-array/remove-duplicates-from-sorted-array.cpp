@@ -12,7 +12,7 @@ public:
                 i++;
                 count++;
 
-                swap(nums[i],nums[j]);
+                nums[i]=nums[j];
             }
             j++;
         }
